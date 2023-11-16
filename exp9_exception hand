@@ -1,0 +1,19 @@
+public class ExceptionDemo {
+ public static void main(String[] args) {
+ int x,y;
+ int a=10,b=5,c=5;
+ try
+ {
+ x=a/(b-c);
+ System.out.println(x);
+ }
+ catch(Exception e)
+ {
+ System.out.println("Exception Handled");
+ System.out.println(e);
+ }
+ y=a/(b+c);
+ System.out.println(y);
+ System.out.println("End of try-catch block");
+ }
+ }
