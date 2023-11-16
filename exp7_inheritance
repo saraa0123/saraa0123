@@ -1,0 +1,35 @@
+lass player
+{
+void display()
+{
+System.out.println("Players");
+} 
+} 
+class Cricket_player extends player
+{
+ void show()
+ {
+ System.out.println("Cricket Players");
+ }
+ } 
+class Football_player extends player{
+void display(){
+System.out.println("Football Players");
+}
+}
+class Hockey_player extends player{
+ void show(){
+System.out.println("Hockey player");
+}
+ } 
+public class Inherit {
+ public static void main(String[] args) {
+ Cricket_player obj1=new Cricket_player();
+ Football_player obj2=new Football_player();
+ Hockey_player obj3=new Hockey_player();
+ obj1.display();
+ obj1.show();
+ obj2.display();
+ obj3.show();
+ }
+ }
