@@ -1,0 +1,14 @@
+import java.util.*;
+public class Exp1Java {
+ public static void main(String[] args) {
+ int fact=1, n;
+Scanner factorial=new Scanner (System.in);
+System.out.println("Enter any Number: ");
+n=factorial.nextInt();
+for(int i=1; i<=n; i++)
+{
+fact = fact*i;
+}
+System.out.println("factorial of "+n+ "is "+fact); 
+ }
+ }
