@@ -1,9 +1,0 @@
-import java.util.Arrays;
-public class ExpFiveNames {
-public static void main(String[] args) { 
-String[] names = {"John", "Steve", "Shane", "Adam", "Ben"};
-System.out.println("String array before sorting:"+Arrays.toString(names));
-Arrays.sort(names);
-System.out.println("String array after sorting in ascending order:"+Arrays.toString(names));
-}
-}
